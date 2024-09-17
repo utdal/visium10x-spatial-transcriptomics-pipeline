@@ -34,7 +34,10 @@ decolvolve_spatial_transcriptomics_analysis(file_path = "/path/to/sample",
 
 giotto_spatial_transcriptomics_analysis(output_dir = "/path/to/sample", 
                                         file_path = "/path/to/sample/outs", 
-                                        project_name = "CUSTOM_PROJECT_NAME")
+                                        project_name = "CUSTOM_PROJECT_NAME",
+                                        xmax_adj, xmin_adj, ymax_adj, ymin_adj)
+# xmax_adj, xmin_adj, ymax_adj, ymin_adj vary based on the tissue, however we used the following values respectively;
+# xmax_adj = 1300, xmin_adj = 1400, ymax_adj = 1100, ymin_adj = 1200
 
 # x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x
 # x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x - x
