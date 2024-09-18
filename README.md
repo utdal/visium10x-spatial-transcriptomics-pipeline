@@ -8,9 +8,9 @@ of spatially resolved gene expression profiles.
 
 | Tool         | Functions                                                    |
 |--------------|--------------------------------------------------------------|
-| Seurat       | `automated_seurat_analysis_func`, `automated_seurat_spatial_analysis_func` |
-| STDeconvolve | `decolvolve_spatial_transcriptomics_analysis`               |
-| Giotto       | `giotto_spatial_transcriptomics_analysis`                   |
+| [Seurat](https://satijalab.org/seurat/articles/spatial_vignette)       | `automated_seurat_analysis_func`, `automated_seurat_spatial_analysis_func` |
+| [STDeconvolve](https://jef.works/STdeconvolve/) | `decolvolve_spatial_transcriptomics_analysis`               |
+| [Giotto](https://rubd.github.io/Giotto_site/)       | `giotto_spatial_transcriptomics_analysis`                   |
 
 ### Files:
 
