@@ -1,5 +1,5 @@
 # 3. Giotto
-giotto_spatial_transcriptomics_analysis <- function(file_path, output_dir, project_name, xmax_adj, xmin_adj, ymax_adj, ymin_adj, giotto_var="Giotto") {
+giotto_spatial_transcriptomics_analysis <- function(file_path, output_dir, project_name, xmax_adj=0, xmin_adj=0, ymax_adj=0, ymin_adj=0, giotto_var="Giotto") {
   
   instrs <- createGiottoInstructions(save_dir = output_dir, save_plot = TRUE, show_plot = FALSE)
   
@@ -23,6 +23,7 @@ giotto_spatial_transcriptomics_analysis <- function(file_path, output_dir, proje
                                           h5_visium_path = file.path(file_path, "raw_feature_bc_matrix.h5"),
                                           h5_tissue_positions_path = file.path(file_path, "spatial", "tissue_positions_list.csv"),
                                           h5_image_png_path = file.path(file_path, "spatial", "tissue_lowres_image.png"),
+                                          h5_json_scalefactors_path = file.path(file_path, "spatial", "scalefactors_json.json"),
                                           png_name = "tissue_lowres_image.png",
                                           instructions = instrs)
   
@@ -33,6 +34,7 @@ giotto_spatial_transcriptomics_analysis <- function(file_path, output_dir, proje
   visium_data <- updateGiottoImage(visium_data, image_name = 'image',
                                    xmax_adj = xmax_adj, xmin_adj = xmin_adj,
                                    ymax_adj = ymax_adj, ymin_adj = ymin_adj)
+  
   spatPlot(gobject = visium_data, 
            cell_color = 'in_tissue', 
            show_image = TRUE, 
