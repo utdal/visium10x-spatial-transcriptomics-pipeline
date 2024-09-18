@@ -19,7 +19,7 @@ giotto_spatial_transcriptomics_analysis <- function(file_path, output_dir, proje
   # loading the data
   tpp <- read.csv(file.path(file_path, "spatial", "tissue_positions_list.csv"))
   names(tpp) <- NULL
-  visium_data <- createGiottoVisiumObject(file_path = file_path,
+  visium_data <- createGiottoVisiumObject(visium_dir = NULL,
                                           h5_visium_path = file.path(file_path, "raw_feature_bc_matrix.h5"),
                                           h5_tissue_positions_path = file.path(file_path, "spatial", "tissue_positions_list.csv"),
                                           h5_image_png_path = file.path(file_path, "spatial", "tissue_lowres_image.png"),
