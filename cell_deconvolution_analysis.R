@@ -38,7 +38,7 @@ decolvolve_spatial_transcriptomics_analysis <- function(file_path, output_dir, l
   
   # Generate plots and save results
   # Plot 1: scatterpie plot of all deconvolved cell types / visualize the barcode proportions of all the deconvolved cell-types in the form of scatterpies
-  plt1 <- vizAllTopics(theta = deconProp, pos = pos, r = 120, lwd = 0, showLegend = TRUE, plotTitle = NA) +
+  plt1 <- vizAllTopics(theta = deconProp, pos = pos, r = 35, lwd = 0, showLegend = TRUE, plotTitle = NA) +
     ggplot2::guides(fill = ggplot2::guide_legend(ncol = 2)) +
     ggplot2::geom_rect(data = data.frame(pos),
                        ggplot2::aes(xmin = min(x)-90, xmax = max(x)+90,
