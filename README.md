@@ -56,8 +56,19 @@ The script will generate various output files which include:
 > -- sample
 >    -- outs
 >      -- filtered_feature_bc_matrix
->      -- Raw_feature_bc_matrix
+>         -- barcodes.tsv.gz
+>         -- features.tsv.gz
+>         -- matrix.mtx.gz
+>      -- raw_feature_bc_matrix
+>         -- barcodes.tsv.gz
+>         -- features.tsv.gz
+>         -- matrix.mtx.gz
 >      -- spatial
+>         -- tissue_positions_list.csv
+>         -- scalefactors_json.json
+>      -- filtered_feature_bc_matrix.h5
+>      -- raw_feature_bc_matrix.h5
+>      -- etc.
 >```
 
 
