@@ -51,4 +51,14 @@ The script will generate various output files which include:
 2. Package Issues: Install any missing R packages using package_installer.R.
 3. Path Errors: Double-check file paths and directory names in the run_analysis.R script.
 
+> [Known Issues](https://github.com/utdal/visium10x-spatial-transcriptomics-pipeline/issues/1): `STDeconvolve` and `Giotto` need the input files to be in the following format:
+> ```
+> -- sample
+>    -- outs
+>      -- filtered_feature_bc_matrix
+>      -- Raw_feature_bc_matrix
+>      -- spatial
+>```
+
+
 Contant: For questions or issues, please reach out [Dr. Tavares Ferreira, Diana](diana.tavaresferreira@utdallas.edu) or [Nikhil Nageshwar Inturi](inturinikhilnageshwar.com). 
