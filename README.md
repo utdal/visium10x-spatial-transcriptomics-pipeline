@@ -4,6 +4,8 @@ This repository provides an R-based pipeline for analyzing spatial RNA-seq data 
 through a sequence of well-defined steps, enabling in-depth exploration and interpretation 
 of spatially resolved gene expression profiles.
 
+> Note: Make sure to have older version of Giotto (1.1.2).
+
 ### Tools used:
 
 | Tool         | Functions                                                    |
@@ -44,7 +46,7 @@ The script will generate various output files which include:
 3. RDS files with processed data
 
 ##### Plots generated:
-![ATACSeq NextFlow Pipeline](misc/plots.PNG)
+![NaN](misc/plots.PNG)
 
 ### Troubleshooting
 1. Missing Files: Ensure all required files are present in the specified paths.
