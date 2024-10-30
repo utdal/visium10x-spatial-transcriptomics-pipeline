@@ -1,6 +1,12 @@
 # loading custom functions
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+### NOTE:
+# /path/to/sample/outs is where my 10x-visium data is present:
+# Seurat: /path/to/sample/outs
+# STDconvolve: /path/to/sample
+# Giotto: /path/to/sample/outs
+
 files <- list.files()
 cat("Files in the config dir:\n", paste(files, collapse = "\n"))
 
@@ -32,8 +38,8 @@ automated_seurat_spatial_analysis_func(
 decolvolve_spatial_transcriptomics_analysis(file_path = "/path/to/sample",
                                             output_dir = "/path/to/the/output_directory")
 
-giotto_spatial_transcriptomics_analysis(output_dir = "/path/to/sample", 
-                                        file_path = "/path/to/sample/outs", 
+giotto_spatial_transcriptomics_analysis(file_path = "/path/to/sample/outs",
+                                        output_dir = "/path/to/sample",
                                         project_name = "CUSTOM_PROJECT_NAME",
                                         xmax_adj = 1300, xmin_adj = 1400, ymax_adj = 1100, ymin_adj = 1200)
 # xmax_adj, xmin_adj, ymax_adj, ymin_adj vary based on the tissue, however we used the following values respectively;
