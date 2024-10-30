@@ -48,6 +48,50 @@ The script will generate various output files which include:
 ##### Plots generated:
 ![NaN](misc/plots.PNG)
 
+##### Plots preview:
+<table>
+  <tr>
+    <td><img src="misc/stdeconv_1.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/stdeconv_2.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/stdeconv_top_genes_by_celltype.PNG" alt="Plot" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="misc/seurat_feature_counts_plot.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_feature_scatter.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_findvar_plot.PNG" alt="Plot" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="misc/seurat_heatmap.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_spatialdimplot_bycluster.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_elbow_plot.PNG" alt="Plot" width="250"/></td>
+  </tr>
+<tr>
+    <td><img src="misc/seurat_UMAP_clustering.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_UMAP_clustering2.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/seurat_vln_spatialfeatureplot.PNG" alt="Plot" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="misc/16_Giotto_adjusted_spatial_locations.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/17_Giotto_HVGplot.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/17_Giotto_screeplot.PNG" alt="Plot" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="misc/19_Giotto_covis_leiden.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_covis_leiden_voronoi.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_num_genes.PNG" alt="Plot" width="250"/></td>
+  </tr>
+<tr>
+    <td><img src="misc/19_Giotto_UMAP_leiden.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/21_Giotto_gini_umap.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/21_Giotto_metaheatmap_gini.PNG" alt="Plot" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="misc/22_Giotto_metadata_heatmap.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/22_Giotto_scran_umap.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/22_Giotto_violinplot_scran.PNG" alt="Plot" width="250"/></td>
+  </tr>
+</table>
+
 ### Troubleshooting
 1. Missing Files: Ensure all required files are present in the specified paths.
 2. Package Issues: Install any missing R packages using package_installer.R.
