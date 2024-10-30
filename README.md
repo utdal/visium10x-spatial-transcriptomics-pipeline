@@ -71,24 +71,24 @@ The script will generate various output files which include:
     <td><img src="misc/seurat_vln_spatialfeatureplot.PNG" alt="Plot" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="misc/16_Giotto_adjusted_spatial_locations.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/17_Giotto_HVGplot.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/17_Giotto_screeplot.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/16_Giotto_adjusted_spatial_locations.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/17_Giotto_HVGplot.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/17_Giotto_screeplot.png" alt="Plot" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="misc/19_Giotto_covis_leiden.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/19_Giotto_covis_leiden_voronoi.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/19_Giotto_num_genes.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_covis_leiden.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_covis_leiden_voronoi.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_num_genes.png" alt="Plot" width="250"/></td>
   </tr>
 <tr>
-    <td><img src="misc/19_Giotto_UMAP_leiden.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/21_Giotto_gini_umap.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/21_Giotto_metaheatmap_gini.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/19_Giotto_UMAP_leiden.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/21_Giotto_gini_umap.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/21_Giotto_metaheatmap_gini.png" alt="Plot" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="misc/22_Giotto_metadata_heatmap.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/22_Giotto_scran_umap.PNG" alt="Plot" width="250"/></td>
-    <td><img src="misc/22_Giotto_violinplot_scran.PNG" alt="Plot" width="250"/></td>
+    <td><img src="misc/22_Giotto_metadata_heatmap.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/22_Giotto_scran_umap.png" alt="Plot" width="250"/></td>
+    <td><img src="misc/22_Giotto_violinplot_scran.png" alt="Plot" width="250"/></td>
   </tr>
 </table>
 
