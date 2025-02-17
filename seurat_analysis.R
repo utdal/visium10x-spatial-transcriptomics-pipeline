@@ -97,7 +97,7 @@ automated_seurat_spatial_analysis_func <- function(data_dir, file_name, slice_no
   data <- Load10X_Spatial(data.dir = data_dir, filename = file_name, 
                           assay = "Spatial", slice = slice_no,
                           bin.size = NULL, filter.matrix = TRUE, 
-                          to.upper = FALSE, image = NULL)
+                          to.upper = FALSE)
   
   # Violin plot                      
   pdf(file = file.path(output_dir, "6_spatial_ViolinPlot.pdf"), width = 12, height = 10)
